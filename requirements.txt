@@ -1,6 +1,7 @@
 scipy
 langchain-community
 langchain-openai
+langchain
 numpy
 chromadb
 openai
