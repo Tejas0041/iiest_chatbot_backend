@@ -5,5 +5,6 @@ langchain
 numpy
 chromadb
 openai
+pysqlite3-binary
 flask
 flask_cors
