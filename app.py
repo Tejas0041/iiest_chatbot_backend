@@ -20,7 +20,11 @@ def load_docs(directory):
     documents = loader.load()
     return documents
 
-directory = pathlib.Path('C:/Users/Tejas Pawar/Downloads/chatbot-2-main/chatbot-2-main/CHATBOTT')  # Update with your directory path
+current_directory = os.path.dirname(os.path.abspath(__file__))
+relative_directory = 'iiest_chatbot_backend'
+
+directory = os.path.join(current_directory, relative_directory)
+
 documents = load_docs(directory)
 # Initialize components
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1500, chunk_overlap=400)
