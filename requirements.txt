@@ -3,8 +3,7 @@ langchain-community
 langchain-openai
 langchain
 numpy
-chromadb
+chromadb==0.3.29
 openai
-pysqlite3-binary
 flask
 flask_cors
