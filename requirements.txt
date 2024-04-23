@@ -6,3 +6,6 @@ numpy
 chromadb
 openai
 flask
+flask_cors
+os
+pathlib
