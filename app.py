@@ -20,10 +20,8 @@ def load_docs(directory):
     documents = loader.load()
     return documents
 
-current_directory = os.path.dirname(os.path.abspath(__file__))
-relative_directory = ''
-
-directory = os.path.join(current_directory, relative_directory)
+base_directory = '/opt/render/project/src'
+directory = base_directory
 
 documents = load_docs(directory)
 # Initialize components
