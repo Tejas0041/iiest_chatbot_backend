@@ -7,4 +7,3 @@ chromadb
 openai
 flask
 flask_cors
-pathlib
