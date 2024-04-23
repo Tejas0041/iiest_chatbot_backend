@@ -21,7 +21,7 @@ def load_docs(directory):
     return documents
 
 current_directory = os.path.dirname(os.path.abspath(__file__))
-relative_directory = 'iiest_chatbot_backend'
+relative_directory = ''
 
 directory = os.path.join(current_directory, relative_directory)
 
