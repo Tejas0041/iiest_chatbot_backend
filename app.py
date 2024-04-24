@@ -9,9 +9,7 @@ from langchain.chains import RetrievalQA
 from flask_cors import CORS
 import os
 import pathlib
-part1= "sk-proj-"
-part2= "qFxIpsf27xxMircN3knBT3BlbkFJTZkKpZiyEN93PjRlHMWA"
-os.environ["OPENAI_API_KEY"]=part1+part2
+os.environ["OPENAI_API_KEY"]= os.environ.get("OPENAI_API_KEY")
 app = Flask(__name__)
 CORS(app)
 # Load documents
