@@ -9,8 +9,8 @@ from langchain.chains import RetrievalQA
 from flask_cors import CORS
 import os
 import pathlib
-part1= "sk-proj"
-part2= "-1Q2vHdLVfr4HcUlXY5lNT3BlbkFJQt76Qw42125HjGqABDjs"
+part1= "sk-proj-"
+part2= "qFxIpsf27xxMircN3knBT3BlbkFJTZkKpZiyEN93PjRlHMWA"
 os.environ["OPENAI_API_KEY"]=part1+part2
 app = Flask(__name__)
 CORS(app)
